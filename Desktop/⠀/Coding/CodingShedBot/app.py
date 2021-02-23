@@ -36,7 +36,7 @@ colors = [0xE10000, 0x00FF7F, 0x2A57FD, 0xFF5733, 0xF405FF, 0x4D4242, 0xADFF2F, 
 
 
 @bot.command()
-async def rules2(ctx):
+async def rules(ctx):
     embed = discord.Embed(title = "— rules for Winter's Den", description = 'Disobeying the rules will result in a ban.', color = 0xffffff)
     embed.add_field(name = 'Rules:', value = "× respect eachother & treat others how you want to be treated, we are a non-toxic community.\n \n× racism, homophobia, hate speech, etc is not allowed. that type of behavior is not/will not be tolerated at all.\n \n× please follow discord tos & guidelines !!!\n \n× no self ads/dm ads you will get banned.\n \n× bringing drama into the server is not tolerated, keep that stuff in dms or drop it.\n \n× any doxxing / ddossing / cp / gore / raiding / hate speech = instant ban\n \n× if you need any help, anyone with these roles will be glad to help out!\n(@winter, @administrator, @moderator).")
     embed.set_footer(icon_url = 'https://cdn.discordapp.com/avatars/355407534376353793/629bc71abbd52d319rrc0fb1baf8623aec.png?size=128', text = f'Made & Written by: {ctx.author.display_name}')
